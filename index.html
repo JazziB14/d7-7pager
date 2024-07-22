@@ -7,30 +7,109 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-black">
     <header class="flex justify-between">
         <!-- logo-->
         <div>
-            <img class="w-16" src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/0a4578fa-3ec7-4aa7-933f-0633f566b3d6/48c2bf24-3814-47f6-a315-5477d14c114f.png" alt="Airplane Flight Over Sea and Palm Trees" title="Airplane Flight Over Sea and Palm Trees" class="w-xs rounded-md" width-full" height="700">
+            <a href="index.html"></a>
+            <img class="w-20" src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/0a4578fa-3ec7-4aa7-933f-0633f566b3d6/48c2bf24-3814-47f6-a315-5477d14c114f.png" alt="Airplane Flight Over Sea and Palm Trees" title="Airplane Flight Over Sea and Palm Trees" class="w-xs rounded-md" width-full" height="700">
         </div>
-       <!-- nav -->
-        <nav>
-            <ul class="flex space-x-20">
-                <li><a href="aboutus.html"></a>About Us</li>
-                <li><a href="services.html"></a>Services</li>
-                <li><a href="contactus.html"></a>Contact Us</li>
-            </ul>
-        </nav>
+
+         <!-- Business Name -->
+        <div class="bg-black text-2xl font-bold text-amber-300 rounded-lg mt-4 text-left">
+            <h1>Journey with Jazzi</h1>
+        </div>
+      
+        <!-- nav -->
+        <div>
+            <nav>
+                <ul class="flex space-x-20 font-bold">
+                    <li class="text-red-400"><a href="aboutus.html">About Us</a></li>
+                    <li class="text-orange-400"><a href="services.html">Services</a></li>
+                    <li class="text-yellow-400"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    
             <!--search bar + login/profile button -->
         <div>
+            <input class="bg-gradient-to-r from-pink-400 via-orange-400 to-yellow-300" type="text">
         </div>
     </header>
     <main>
-        <section></section>
+        <!-- Slogan -->
+            <section class="">
+                <h1 class="text-purple-400 text-center text-8xl mb-6">Make Your Reality a Fantasy</h1>
+            </section>
+
+            <div class="flex justify-between md:text-center px-20 mt-20">
+                <!-- Destinations page -->
+                    <div class="hover:box-content h-50 w-60 text-orange-600 font-bold mb-10 mt-10">
+                        <div class="dropdown dropdown-right dropdown-end">
+                            <div tabindex="0" role="button" class="m-1">Destinations</div>
+                            <ul tabindex="0" class="dropdown-content menu z-[1] w-52 p-2">
+                                <li><a href="africandestinations.html">African Destinations</a></li>
+                                <li><a href="arcticdestinations.html">Arctic Destinations</a></li>
+                                <li><a href="europeandestinations.html">European Destinations</a></li>
+                                <li><a href="tropicaldestinations.html">Tropical Destinations</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img class="" src="https://images.ctfassets.net/9cxgygtadmvl/69obczYZq9XgzxpyU98e1r/6e9e2629e4926160aac5c652997377b4/damian-patkowski-T-LfvX-7IVg-unsplash.jpg?" alt="">
+                        </div>
+                    </div>
+
+                <!-- Transportation page -->
+                    <div class="hover:box-content h-50 w-60 text-purple-500 font-bold mb-10 mt-10">
+                        <div class="dropdown dropdown-right dropdown-end">
+                            <div tabindex="0" role="button" class="m-1">Transportation</div>
+                            <ul tabindex="0" class="dropdown-content menu z-[1] p-2">
+                                <li><a href="flights.html">Flights</a></li>
+                                <li><a href="rentalcars.html">Rental Cars</a></li>
+                                <li><a href="boats.html">Boats</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <img class="mb-2" src="https://www.chauffeurondemand.com/assets/images/more-services/luxury-transportation/Save-your-time-for-business-trips-to-get-Luxury-Transportation.jpg" alt="">
+                        </div>
+                    </div>   
+
+                <!-- Hospitality page -->
+                    <div class="hover:box-content h-50 w-60 text-yellow-600 font-bold mb-10 mt-10">
+                        <div class="dropdown dropdown-right dropdown-end">
+                            <div tabindex="0" role="button" class="m-1">Hospitality</div>
+                            <ul tabindex="0" class="dropdown-content menu z-[1] p-2">
+                                <li><a href="hotels.html">Hotels and Resorts</a></li>
+                                <li><a href="cruises.html">Cruises</a></li>
+                            </ul>
+                        </div> 
+
+                        <div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/170303105908-siargao-bleu-resort-spa-remote-resorts-philippines.jpg?q=w_3264,h_2448,x_0,y_0,c_fill" alt="">
+                        </div>
+                    </div>
+
+                <!-- Excursions -->
+                    <div class="hover:box-content h-50 w-60 text-pink-600 font-bold mb-10 mt-10">
+                        <div class="dropdown dropdown-right dropdown-end">
+                            <div tabindex="0" role="button" class="m-1">Excursions</div>
+                            <ul tabindex="0" class="dropdown-content menu z-[1] p-2">
+                                <li><a href="tours.html">Tours</a></li>
+                                <li><a href="culture.html">Culture Experience</a></li>
+                                <li><a href="water.html">Water Activites</a></li>
+                            </ul>
+                        </div> 
+
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRtMbV4UEkk0G0Tg8tGv6h6N8LAmimXWkPw&s" alt="">
+                        </div>   
+                    </div>
     </main>
     </body>
-    <footer class=" footer footer-center bg-base-300 text-base-content p-4">
-          <p>Copyright © 2024 - All rights reserved by Journey With Jazzi</p>
+    <footer class=" footer footer-center bg-black text-white text-base-content h-60">
+            <p>Copyright © 2024 - All rights reserved by Journey With Jazzi</p>
+        </div>
           </footer>
     </body>
 </html>
